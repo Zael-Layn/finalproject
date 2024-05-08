@@ -1,31 +1,28 @@
 {
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "express": "^4.19.2",
+    "mongodb": "^6.6.1",
+    "mongoose": "^8.3.4",
+    "node": "^20.13.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server"
+  },
   "name": "finalproject",
   "description": "",
   "version": "1.0.0",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "devDependencies": {},
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Zael-Layn/finalproject.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/Zael-Layn/finalproject/issues"
-    },
-    "homepage": "https://github.com/Zael-Layn/finalproject#readme",
-    "dependencies": {
-      "cors": "^2.8.5",
-      "date-fns": "^3.6.0",
-      "dotenv": "^16.4.5",
-      "express": "^4.19.2",
-      "mongodb": "^6.6.1",
-      "mongoose": "^8.3.4",
-      "node": "^20.13.0",
-      "nodemon": "^3.1.0",
-      "uuid": "^9.0.1"
-    }
+  "author": "Scott Wagner",
+  "license": "ISC",
+  "engines": {
+    "node": "^16.0.0"
   }
 }
