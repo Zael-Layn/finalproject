@@ -1,5 +1,6 @@
 require('dotenv').config();
 const express = require('express');
+const expressStatic = require('express-static');
 const app = express();
 const path = require('path');
 const cors = require('cors');
@@ -20,7 +21,7 @@ app.use(cors(corsOptions));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-app.use('/', express.static(path.join(__dirname, '/public')));
+app.use('/', express.static(path.join(__dirname, 'public')));
 
 app.use('/', require('./routes/root'));
 app.use('/states', require('./routes/api/states'));
