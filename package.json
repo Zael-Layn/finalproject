@@ -1,4 +1,22 @@
 {
+  "name": "finalproject",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zael-Layn/finalproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zael-Layn/finalproject/issues"
+  },
+  "homepage": "https://github.com/Zael-Layn/finalproject#readme",
+
   "dependencies": {
     "cors": "^2.8.5",
     "date-fns": "^3.6.0",
@@ -6,6 +24,7 @@
     "express": "^4.19.2",
     "mongodb": "^6.6.1",
     "mongoose": "^8.3.4",
+    "node": "^20.13.0",
     "uuid": "^9.0.1"
   }
 }
