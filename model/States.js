@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-//schema for mongodb
+
 const StatesSchema = new Schema({
      statecode: {
         type: String, 
