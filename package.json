@@ -7,7 +7,6 @@
     "express-static": "^1.2.6",
     "mongodb": "^6.6.1",
     "mongoose": "^8.3.4",
-    "node": "^20.13.0",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
